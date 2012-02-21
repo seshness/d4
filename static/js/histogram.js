@@ -1,4 +1,4 @@
-d3.csv("f500.csv", function handleCSV(csv) {
+d3.csv("data/f500.csv", function handleCSV(csv) {
   // select revenues of CA companies
   var data = csv.filter(function(el) { return el.state_location == "CA"; })
                 .map(function(el) { return parseInt(el.revenues) });
