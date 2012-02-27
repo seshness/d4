@@ -12,7 +12,7 @@ You can look at http://elections.nytimes.com/2012/campaign-finance for examples 
 We have created a skeleton dashboard with six visualizations using d3 for the Fortune 500 dataset and put it on GitHub at https://github.com/rxin/d4/
 
 If you have git installed on your computer, do 
-``git@github.com:rxin/d4.git``
+``git clone git@github.com:rxin/d4.git``
 to clone the repository.
 
 If you don’t have git, you can download the code at https://github.com/rxin/d4/downloads
